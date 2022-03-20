@@ -107,8 +107,8 @@ class ListHelper:
         for content in self.telegraph_content:
             self.path.append(
                 Telegraph(access_token=telegraph_token).create_page(
-                    title="TorrentLeech Search",
-                    author_name="TorrentLeech",
+                    title="CvmesXSearch",
+                    author_name="CvmesXCloud",
                     html_content=content,
                 )["path"]
             )
@@ -185,8 +185,8 @@ class ListHelper:
         for content in self.telegraph_content:
             self.path.append(
                 Telegraph(access_token=telegraph_token).create_page(
-                    title="TorrentLeech Search",
-                    author_name="TorrentLeech",
+                    title="CvmesXSearch",
+                    author_name="CvmesXCloud",
                     html_content=content,
                 )["path"]
             )
