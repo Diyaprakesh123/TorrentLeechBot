@@ -41,8 +41,8 @@ class ListHelper:
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(
                 path=self.path[prev_page],
-                title="TorrentLeech Search",
-                author_name="TorrentLeech",
+                title="CvmesXSearch",
+                author_name="CvmesXCloud",
                 html_content=content,
             )
         return
